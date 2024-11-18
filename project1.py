@@ -8,6 +8,7 @@ y_upper = int(input("Enter the upper limit:"))
 
 ran_no = random.randrange(x_lower,y_upper)
 min_no_steps = np.log2((y_upper-x_lower)+1)
+min_no_steps = int(min_no_steps)
 
 no_of_gusses = 0
 
